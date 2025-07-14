@@ -1,4 +1,8 @@
 {
+  "name": "music-system",
+  "version": "1.0.0",
+  "description": "docker pull srilaxmiprasanna/music-streamer:latest\r docker  run -p 3000:3000  -p 5000:5000 srilaxmiprasanna/musicstream\r Frontend (UI) running on port 3000 (like a React app or some web interface).",
+  "main": "index.js",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
@@ -8,12 +12,8 @@
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.2"
   },
-  "name": "music-system",
-  "version": "1.0.0",
-  "description": "docker pull srilaxmiprasanna/music-streamer:latest\r docker  run -p 3000:3000  -p 5000:5000 srilaxmiprasanna/musicstream\r Frontend (UI) running on port 3000 (like a React app or some web interface).",
-  "main": "index.js",
   "devDependencies": {},
-  "scripts": { 
+  "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
