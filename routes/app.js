@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 const path = require("path");
 const mongoose = require("mongoose");
 require("../db"); // Make sure this file establishes the MongoDB connection
