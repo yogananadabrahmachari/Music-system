@@ -1,4 +1,7 @@
 {
+  "name": "music-system",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
@@ -7,5 +10,8 @@
     "hbs": "^4.2.0",
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
